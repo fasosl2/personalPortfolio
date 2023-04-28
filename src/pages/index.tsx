@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
+import {BsLinkedin, BsEnvelope, BsGithub, BsWhatsapp, BsFillTelephoneFill} from 'react-icons/bs'
 import styles from '@/styles/Home.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -16,7 +17,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <div className={styles.description}>
-          <p>
+          <p className={styles.codeInput}>
             Wellcome to my portfolio&nbsp;
             <code className={styles.code}>Check my current projects</code>
           </p>
@@ -48,6 +49,21 @@ export default function Home() {
             height={300}
             priority
           />
+          
+
+          <p className={styles.codeInput}>
+            <a href='http://linkedin.com/in/fasosl'><BsLinkedin /></a>
+            {' '}
+            <a href='http://github.com/fasosl2'><BsGithub /></a>
+            {' '}
+            <a href='mailto:fasosl2@gmail.com'><BsEnvelope /></a>
+            {' '}
+            <a href='https://api.whatsapp.com/send?phone=5581997322167'><BsWhatsapp /></a>
+            {' '}
+            <a href='tel:+5581997322167'><BsFillTelephoneFill /></a>
+            {' '}
+          </p>
+          
         </div>
 
         <div className={styles.grid }>
@@ -79,34 +95,33 @@ export default function Home() {
             </p>
           </a>
 
-          {/* <a
-            href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          <a
+            href="https://do-acao-three.vercel.app/"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              Templates <span>-&gt;</span>
+              Do-ação <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-              Discover and deploy boilerplate example Next.js&nbsp;projects.
+              Project created for a a course in the college, to help people to donate Books.
             </p>
           </a>
 
           <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://virtual-shop-blue.vercel.app/"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              Deploy <span>-&gt;</span>
+              VirtualShop <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-              Instantly deploy your Next.js site to a shareable URL
-              with&nbsp;Vercel.
+              Created to simulate the mechanics of a simple virtual store.
             </p>
-          </a> */}
+          </a>
         </div>
       </main>
     </>
