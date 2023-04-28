@@ -18,8 +18,7 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.description}>
           <p className={styles.codeInput}>
-            Wellcome to my portfolio&nbsp;
-            <code className={styles.code}>Check my current projects</code>
+            Welcome to my portfolio|
           </p>
           <div>
             <a
@@ -63,11 +62,14 @@ export default function Home() {
             <a href='tel:+5581997322167'><BsFillTelephoneFill /></a>
             {' '}
           </p>
-          
+          <p>
+          </p>
         </div>
 
+          <code className={styles.code}>Check my current projects:</code>
+          <br/>
         <div className={styles.grid }>
-          <a
+          {/* <a
             href="https://dio-react.vercel.app/"
             className={styles.card}
             target="_blank"
@@ -79,7 +81,7 @@ export default function Home() {
             <p className={inter.className}>
               Created during Orangetech+ Bootcamp, by <strong>Inter</strong> and <strong>Dio</strong>.
             </p>
-          </a>
+          </a> */}
 
           <a
             href="https://descom-pin.vercel.app/"
