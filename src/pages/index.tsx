@@ -51,9 +51,9 @@ export default function Home() {
           
 
           <p className={styles.codeInput}>
-            <a href='http://linkedin.com/in/fasosl'><BsLinkedin /></a>
+            <a href='http://linkedin.com/in/fasosl' target="_blank"><BsLinkedin /></a>
             {' '}
-            <a href='http://github.com/fasosl2'><BsGithub /></a>
+            <a href='http://github.com/fasosl2' target="_blank"><BsGithub /></a>
             {' '}
             <a href='mailto:fasosl2@gmail.com'><BsEnvelope /></a>
             {' '}
