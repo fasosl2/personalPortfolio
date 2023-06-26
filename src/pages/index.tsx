@@ -112,16 +112,16 @@ export default function Home() {
           </a>
 
           <a
-            href="https://virtual-shop-blue.vercel.app/"
+            href="https://cozinhaplus-dev.vercel.app/produtos"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              VirtualShop <span>-&gt;</span>
+              Cozinha+ <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-              Created to simulate the mechanics of a simple virtual store.
+              Created at a FACEPE project, for a local ONG.
             </p>
           </a>
         </div>
