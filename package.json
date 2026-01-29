@@ -1,6 +1,9 @@
 {
   "name": "frontend-api",
   "version": "0.1.0",
+  "engines": {
+    "node": "24.x"
+  },
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,15 +12,17 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@types/node": "18.15.13",
-    "@types/react": "18.0.37",
-    "@types/react-dom": "18.0.11",
-    "eslint": "^9.39.2",
-    "eslint-config-next": "^16.1.6",
     "next": "^16.1.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-icons": "^4.8.0",
-    "typescript": "5.0.4"
+    "react-icons": "^4.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/react": "^18.0.37",
+    "@types/react-dom": "^18.0.11",
+    "eslint": "^9.39.2",
+    "eslint-config-next": "^16.1.6",
+    "typescript": "^5.5.0"
   }
 }
