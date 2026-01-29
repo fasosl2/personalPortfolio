@@ -6,7 +6,7 @@ import styles from '@/styles/Home.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
+export default function Home(): JSX.Element {
   return (
     <>
       <Head>
@@ -51,19 +51,23 @@ export default function Home() {
           
 
           <p className={styles.codeInput}>
-            <a href='http://linkedin.com/in/fasosl' target="_blank"><BsLinkedin /></a>
-            {' '}
-            <a href='http://github.com/fasosl2' target="_blank"><BsGithub /></a>
-            {' '}
-            <a href='mailto:fasosl2@gmail.com'><BsEnvelope /></a>
-            {' '}
-            <a href='https://api.whatsapp.com/send?phone=5581997322167'><BsWhatsapp /></a>
-            {' '}
-            <a href='tel:+5581997322167'><BsFillTelephoneFill /></a>
-            {' '}
+            <a href="https://linkedin.com/in/fasosl" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">
+              <BsLinkedin aria-hidden="true" />
+            </a>{' '}
+            <a href="https://github.com/fasosl2" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">
+              <BsGithub aria-hidden="true" />
+            </a>{' '}
+            <a href="mailto:fasosl2@gmail.com" aria-label="Send email">
+              <BsEnvelope aria-hidden="true" />
+            </a>{' '}
+            <a href="https://api.whatsapp.com/send?phone=5581997322167" aria-label="WhatsApp">
+              <BsWhatsapp aria-hidden="true" />
+            </a>{' '}
+            <a href="tel:+5581997322167" aria-label="Call phone">
+              <BsFillTelephoneFill aria-hidden="true" />
+            </a>{' '}
           </p>
-          <p>
-          </p>
+          
         </div>
 
           <code className={styles.code}>Check my current projects:</code>
@@ -112,16 +116,16 @@ export default function Home() {
           </a>
 
           <a
-            href="https://cozinhaplus-dev.vercel.app/produtos"
+            href="https://chacarajapia.vercel.app/"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              Cozinha+ <span>-&gt;</span>
+              Chácara Japiá <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-              Created at a FACEPE project, for a local ONG.
+              An e‑commerce platform for a local farm, showcasing products and enabling customers to buy online.
             </p>
           </a>
         </div>
