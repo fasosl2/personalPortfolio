@@ -97,7 +97,7 @@ export default function Home(): JSX.Element {
               DescomPin <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-            Created during &quot;Instituto Nu&quot; Bootcamp, from <strong>Nubank</strong> and <strong>Descomplica</strong>.
+            Created during &quot;Instituto Nu&quot; React Bootcamp, from <strong>Nubank</strong> and <strong>Descomplica</strong>.
             </p>
           </a>
 
@@ -111,7 +111,7 @@ export default function Home(): JSX.Element {
               Do-ação <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-              Project created for a a course in the college, to help people to donate Books.
+              A React Project created for a a course in the college, to help people to donate Books.
             </p>
           </a>
 
@@ -125,7 +125,7 @@ export default function Home(): JSX.Element {
               Chácara Japiá <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-              An e‑commerce platform for a local farm, showcasing products and enabling customers to buy online.
+              React/NodeJS e‑commerce platform for a local farm, showcasing products and enabling customers to buy online.
             </p>
           </a>
 
