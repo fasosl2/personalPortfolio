@@ -128,6 +128,20 @@ export default function Home(): JSX.Element {
               An e‑commerce platform for a local farm, showcasing products and enabling customers to buy online.
             </p>
           </a>
+
+          <a
+            href="https://whats-direto.vercel.app/"
+            className={styles.card}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h2 className={inter.className}>
+              Whats Direto <span>-&gt;</span>
+            </h2>
+            <p className={inter.className}>
+              An Angular 21 WhatsApp tool for instant chat initiation without saving contacts.
+            </p>
+          </a>
         </div>
       </main>
     </>
